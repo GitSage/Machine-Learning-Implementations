@@ -1,0 +1,11 @@
+@relation test
+@attribute color nominal {'Red'}
+@attribute size real
+@attribute shape nominal {'Round','Square'}
+@attribute nothing real
+@data
+?, 1.0, 'Round'
+?, 2.0, 'Square'
+?, 3.0, 'Round'
+'Red', ?, ?
+'Red', ?, 'Square'

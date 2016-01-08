@@ -1,0 +1,14 @@
+@relation nonlineardata
+@attribute 'x' REAL
+@attribute 'y' REAL
+@attribute 'Class' {'t', 'f'}
+@data
+
+1,-1.0,'t'
+1,-.75,'t'
+1,-.50,'t'
+1,-.25,'f'
+1,0.25,'t'
+1,0.50,'f'
+1,0.75,'f'
+1,1.00,'f'

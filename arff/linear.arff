@@ -1,0 +1,13 @@
+@relation lineardata
+@attribute 'x' REAL
+@attribute 'y' REAL
+@attribute 'Class' {'t', 'f'}
+@data
+-1.0,-1.0,'t'
+-.75,-.75,'t'
+-.50,-.50,'t'
+-.25,-.25,'t'
+-1.0,-.75,'f'
+-.75,-.50,'f'
+-.50,-.25,'f'
+-.25,0.00,'f'
